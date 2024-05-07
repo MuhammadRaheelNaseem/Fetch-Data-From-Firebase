@@ -189,14 +189,14 @@ To view real-time sensor data, simply open the `index.html` file in a web browse
 ```javascript
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDfPP9qL5TFV-EU0noGuDtteihQVOjqtCI",
-    authDomain: "tuesday-class-acf4f.firebaseapp.com",
-    databaseURL: "https://tuesday-class-acf4f-default-rtdb.firebaseio.com",
-    projectId: "tuesday-class-acf4f",
-    storageBucket: "tuesday-class-acf4f.appspot.com",
-    messagingSenderId: "37346548645",
-    appId: "1:37346548645:web:6a715a4b93844388b7e64c",
-    measurementId: "G-6RDMWCG6X5"
+    apiKey: "AIzaSxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    authDomain: "tuesday-cxxxxxxxxx.firebaseapp.com",
+    databaseURL: "https://tuesday-cxxxxxxxxxxxxxxxxxxxx.firebaseio.com",
+    projectId: "tuesday-cXxxxxxxxxxxxxxx",
+    storageBucket: "tuesday-cxxxxxxxxxxxx.appspot.com",
+    messagingSenderId: "373xxxxxxxxxx",
+    appId: "1:3734Xxxxxxxxxxx:web:6a715a4xxxxxxxxxxx",
+    measurementId: "G-6RDxxxxxxxxx"
 };
 
 // Initialize Firebase
@@ -235,3 +235,6 @@ sensor2Ref.on('value', (snapshot) => {
     updateSensor2Data(data);
 });
 ```
+
+## Output:
+![image](https://github.com/MuhammadRaheelNaseem/Fetch-Data-From-Firebase/assets/63813881/9aac5269-5ff9-45ea-8c32-4986aca72f16)
